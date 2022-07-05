@@ -35,13 +35,13 @@ body {
   border-radius: 10px;
 }
 .donate {
-  margin: 90px;
+  margin: 150px 90px;
   text-align: center;
 }
 .donate h2 {
   margin-top: 30px;
   margin-bottom: 10px;
-  font-size: 50px;
+  font-size: 45px;
 }
 .donate p {
   font-size: 20px;
@@ -50,6 +50,7 @@ body {
 }
 .maindiv {
   display: inline-flex;
+  /* margin: 60px; */
 }
 .maindiv .child {
   margin: 10px;
@@ -81,4 +82,58 @@ input {
 #position {
   margin: 0 200px;
   text-align: center;
+}
+.donat-plan {
+  padding: 25px;
+  margin: 15px;
+  text-align: left;
+  width: 33.3%;
+  background-color: #f5ebeb;
+  border-radius: 10px;
+  padding-bottom: 0;
+}
+.donat-plan img {
+  padding-top: 50px;
+}
+.donat-plan h3 {
+  font-size: 25px;
+}
+.donat-plan p {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+}
+#color {
+  background-color: #d6ff8f60;
+}
+#margin {
+  margin: 0 50px;
+}
+.child-div {
+  margin-bottom: 20px;
+  padding: 70px;
+  width: 50%;
+}
+.child-div img {
+  width: 100%;
+}
+.child-div p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-top: 100px;
+}
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: black;
+  height: 50%;
+}
+footer h2 {
+  font-size: 35px;
+  color: #f04c4c;
+  font-family: "Lobster Two", cursive;
+}
+footer p {
+  color: rgb(255, 236, 201);
 }
