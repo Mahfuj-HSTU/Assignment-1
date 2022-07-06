@@ -66,7 +66,7 @@ body {
   border: 3px solid red;
   border-radius: 5px;
 }
-input {
+#amount {
   margin: 50px;
   padding-bottom: 10px;
   display: block;
@@ -88,7 +88,7 @@ input {
   margin: 15px;
   text-align: left;
   width: 33.3%;
-  background-color: #f5ebeb;
+  background-color: #edf5f6;
   border-radius: 10px;
   padding-bottom: 0;
 }
@@ -104,7 +104,7 @@ input {
   text-align: justify;
 }
 #color {
-  background-color: #d6ff8f60;
+  background-color: #fff4d6;
 }
 #margin {
   margin: 0 50px;
@@ -136,4 +136,28 @@ footer h2 {
 }
 footer p {
   color: rgb(255, 236, 201);
+}
+#form {
+  margin: 5px 150px 0 150px;
+  padding: 80px 190px;
+  display: inline-flex;
+  background-color: #fff4d6;
+}
+#form input {
+  font-size: 18px;
+  padding: 13px 18px;
+  outline: none;
+  border: none;
+}
+#form input[type="text"] {
+  background-color: #ccd8d8;
+  border-radius: 7px 0 0 7px;
+  opacity: 0.7;
+}
+#form input[type="submit"] {
+  background-color: #ff6060;
+  border-radius: 0 7px 7px 0;
+  padding: 0 50px;
+  color: #ffffff;
+  cursor: pointer;
 }
