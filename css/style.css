@@ -110,18 +110,22 @@ body {
   margin: 0 50px;
 }
 .child-div {
-  margin-bottom: 20px;
+  margin: 10px;
+  margin-bottom: 40px;
   padding: 70px;
   width: 50%;
+  border-radius: 15px;
+  background-color: #fcf8f8d4;
 }
 .child-div img {
   width: 100%;
 }
 .child-div p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 30px;
-  padding-top: 100px;
+  padding-top: 30px;
+  text-align: justify;
 }
 footer {
   padding: 30px;
