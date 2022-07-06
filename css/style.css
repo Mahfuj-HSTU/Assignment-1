@@ -110,12 +110,12 @@ body {
   margin: 0 50px;
 }
 .child-div {
-  margin: 10px;
+  margin: 15px;
   margin-bottom: 40px;
   padding: 70px;
   width: 50%;
   border-radius: 15px;
-  background-color: #fcf8f8d4;
+  background-color: #f2f5f6;
 }
 .child-div img {
   width: 100%;
